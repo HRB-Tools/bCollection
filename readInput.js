@@ -1,3 +1,4 @@
+/**** Complementary to process.js - creates 'opcodes' ****/
 function readInput(a) {
   var hold1 = rawtext[a];
   if ((hold1.lastIndexOf(".") == (hold1.length) - 1) && (hold1.length > 0)) { //Punkt vor Leerzeichen -> Satzende (Fehlerbeschreibung)
